@@ -16,9 +16,9 @@
 <div id='id-section1'/>
 ## **Question 1:** How does the quantitative genetic architecture of growth shift alongside a variable environment? 
 
-### Hypothesis: Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
+**Hypothesis:** Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
 
-### Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?).   
+**Approach:** Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?).   
 
 **Part 1. Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework.**  
 
