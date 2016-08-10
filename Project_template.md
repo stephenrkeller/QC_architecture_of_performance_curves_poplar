@@ -11,6 +11,7 @@
 * [Question 2. Are there new shifts in episodic selection regimes in poplar?](#id-section2). 
 * [Broader Impacts](#id-section3). 
 * [Intellectual merit](#id-section4). 
+* [Timeline](#id-section5)
 
 
 <div id='id-section1'/>
@@ -70,7 +71,9 @@ Prediction:
 **Strategies:**     
 1. Develop my own skills as a scientist by honing my skills in genomics     
 2. As an under represented group, I will be able to attract other ethnicities to engage in research. I will mentor undergraduate researchers.     
-3.   
+3. Collaborate with local high schools to help me phenotype, take physiological measurements. Burlington high school has a large refugee community. Kids don't know you can be a scientist.         
+4. Construct shiny app so that citizens can follow our science.  
+5. If we do proteomics, utilize the proteomics facility at UVM 
 
 <div id='id-section4'/>    
 
@@ -81,3 +84,15 @@ Prediction:
 **Strategies:**    
 1. I will utilize evolutionary theory to understand basic principles about what limits organisms to persist; these findings will extend to large-scale production of woody biomass    
 2. This work will help us understand the determinants of resiliency or susceptibility to human-induced environmental change.   
+
+<div id='id-section1'/>
+## Timeline
+|Task                       |2017 |2018 |2019 |2020 |
+|:-----------------------|:-----|:-----|:-----|:-----|
+|Common Garden/field     |x     |x     |x     |x     |
+|Phenotyping             |      |x     |x     |x     |
+|Genomic Analyses        |      |x     |x     |x     |
+|Attending Conferences   |      |      |x     |x     |
+|Writing for publication |      |      |x     |x     |
+|Public Outreach         |      |x     |x     |x     |
+
