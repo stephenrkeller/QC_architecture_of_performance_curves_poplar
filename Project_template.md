@@ -58,8 +58,17 @@ Approach:
 
 ```How well does the activity advance discovery and understanding while promoting teaching, training, and learning? How well does the proposed activity broaden the participation of underrepresented groups (e.g., gender, ethnicity, disability, geographic, etc.)? To what extent will it enhance the infrastructure for research and education, such as facilities, instrumentation, networks, and partnerships? Will the results be disseminated broadly to enhance scientific and technological understanding? What may be the benefits of the proposed activity to society?```
 
+Strategies: 
+1. Develop my own skills as a scientist by honing my skills in genomics
+2. As an under represented group, I will be able to attract other ethnicities to engage in research. I will mentor undergraduate researchers. 
+3. 
+
 <div id='id-section4'/>    
 
 # Intellectual Merit  
 
-```How important is the proposed activity to advancing knowledge and understanding within its own field or across different fields? How well qualified is the proposer (individual or team) to conduct the project? (If appropriate, the reviewer will comment on the quality of the prior work.) To what extent does the proposed activity suggest and explore creative, original, or potentially transformative concepts? How well conceived and organized is the proposed activity? Is there sufficient access to resources?```
+```How important is the proposed activity to advancing knowledge and understanding within its own field or across different fields? How well qualified is the proposer (individual or team) to conduct the project? (If appropriate, the reviewer will comment on the quality of the prior work.) To what extent does the proposed activity suggest and explore creative, original, or potentially transformative concepts? How well conceived and organized is the proposed activity? Is there sufficient access to resources?```  
+
+Strategies:  
+1. I will utilize evolutionary theory to understand basic principles about what limits organisms to persist; these findings will extend to large-scale production of woody biomass
+2. This work will help us understand the determinants of resiliency or susceptibility to human-induced environmental change.
