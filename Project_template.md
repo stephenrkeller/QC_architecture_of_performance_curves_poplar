@@ -16,7 +16,8 @@ Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a
 
 Predictions: 
 
-Kingsolver et al. 2015
+[Kingsolver et al. 2015](http://www.jstor.org/stable/10.1086/681083)       
+
 ![](https://cloud.githubusercontent.com/assets/4654474/17571995/8eb6f062-5f20-11e6-9cf0-162845d307a8.png)
 
 1. If we see A and B, no constraints among genotypes
