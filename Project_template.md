@@ -13,16 +13,14 @@
 * [Intellectual merit](#id-section4). 
 
 
-
-
 <div id='id-section1'/>
 ## **Question 1:** How does the quantitative genetic architecture of growth shift alongside a variable environment? 
 
-## Hypothesis: Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
+### Hypothesis: Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
 
-## Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?).   
+### Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?).   
 
-### Part 1. Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework. 
+**Part 1. Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework.**  
 
 We will do this by estimating the broad-sense variance-covariance G-matrix and identify trade-offs by decomposing **G** with a PCA to quantify the correlational structure. Plot PCA loadings as a function of environment. 
 
@@ -40,7 +38,7 @@ The cool thing here is that any of these possibilities can be captured by PC1, w
 
 A different approach: [Template mode variation](http://www.ncbi.nlm.nih.gov/pubmed/16032579)
 
-### Part 2. Correlate responses of genotypes to where they were found (source population)    
+**Part 2. Correlate responses of genotypes to where they were found (source population)**    
 
 We could fit functions to growth curves and then extract parameters. Plot parameters against source climate. This will get at the local adaptation part. 
 
