@@ -30,7 +30,7 @@ Predictions:
 
 ![](https://cloud.githubusercontent.com/assets/4654474/17571995/8eb6f062-5f20-11e6-9cf0-162845d307a8.png)
 
-1. If we see A and B, no constraints among genotypes    
+1. If we see A-B, no constraints among genotypes    
 2. If we see C-D, constraints between low-high environmental axis   
 3. If we see E-F, generalist-specialist axis of variation    
 
@@ -57,7 +57,9 @@ Notes:
 **Approach:** Overlay and compare historical and contemporary selection regimes. Phenotype and collect samples out in the field and compare with common garden. When in the field, estimate historical selection. 
 
 Prediction:     
-1. 
+1. Selection could be targeting regions of the genome which have not experienced selection before.    
+2. 
+
 
 <div id='id-section3'/>
 
