@@ -7,12 +7,15 @@
 4. Determinants of resiliency to environmental change in Poplar.  
 
 
-**Question 1:** How does the quantitative genetic architecture of growth shift alongside a variable environment? 
+## **Question 1:** How does the quantitative genetic architecture of growth shift alongside a variable environment? 
 
-Hypothesis: Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
+## Hypothesis: Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
 
-Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?). Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework. We will do this by estimating the broad-sense variance-covariance G-matrix and identify trade-offs by decomposing **G** with a PCA to quantify the correlational structure. Plot PCA loadings as a function of environment. 
+## Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?).   
 
+### Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework. 
+
+We will do this by estimating the broad-sense variance-covariance G-matrix and identify trade-offs by decomposing **G** with a PCA to quantify the correlational structure. Plot PCA loadings as a function of environment. 
 
 Predictions: 
 
@@ -28,6 +31,9 @@ The cool thing here is that any of these possibilities can be captured by PC1, w
 
 A different approach: [Template mode variation](http://www.ncbi.nlm.nih.gov/pubmed/16032579)
 
+### Correlate responses of genotypes to where they were found (source population)    
+
+We could fit functions to growth curves and then extract parameters. Plot parameters against source climate. This will get at the local adaptation part. 
 
 **Question 2:**
 
