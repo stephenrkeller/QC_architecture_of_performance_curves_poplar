@@ -7,7 +7,10 @@
 4. Determinants of resiliency to environmental change in Poplar.  
 
 # Table of Contents: 
-* [Question 1](#id-section1).  How does the quantitative genetic architecture of growth shift alongside a variable environment? 
+* [Question 1](#id-section1).  How does the quantitative genetic architecture of growth shift alongside a variable environment?    
+* [Question 2](#id-section2). 
+* [Broader Impacts](#id-section3). 
+* [Intellectual merit](#id-section4). 
 
 
 
@@ -41,16 +44,23 @@ A different approach: [Template mode variation](http://www.ncbi.nlm.nih.gov/pubm
 
 We could fit functions to growth curves and then extract parameters. Plot parameters against source climate. This will get at the local adaptation part. 
 
+
+<div id='id-section2'/>
+
 **Question 2:**
 
 Hypothesis: 
 
 Approach: 
 
+
+<div id='id-section3'/>
+
 # Broader Impacts    
 
 ```How well does the activity advance discovery and understanding while promoting teaching, training, and learning? How well does the proposed activity broaden the participation of underrepresented groups (e.g., gender, ethnicity, disability, geographic, etc.)? To what extent will it enhance the infrastructure for research and education, such as facilities, instrumentation, networks, and partnerships? Will the results be disseminated broadly to enhance scientific and technological understanding? What may be the benefits of the proposed activity to society?```
 
+<div id='id-section4'/>    
 
 # Intellectual Merit  
 
