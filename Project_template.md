@@ -6,14 +6,20 @@
 3. Persistance of Poplar in a the face of a changing environment.
 4. Determinants of resiliency to environmental change in Poplar.  
 
+# Table of Contents: 
+* [Question 1](#id-section1).  How does the quantitative genetic architecture of growth shift alongside a variable environment? 
 
+
+
+
+<div id='id-section1'/>
 ## **Question 1:** How does the quantitative genetic architecture of growth shift alongside a variable environment? 
 
 ## Hypothesis: Local adaptation has produced constraints on certain genotypes to persist outside of their optimal operating environmental envelopes.
 
 ## Approach: Leverage the ability to clone genotypes and rear 30-50 clones across a gradient of 9-12 common gardens to capture the ability for genotypes to operate under varying climates (growing degree day?).   
 
-### Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework. 
+### Part 1. Next, we will assess growth performance across these common gardens and identify constraints within a quantitative genetic framework. 
 
 We will do this by estimating the broad-sense variance-covariance G-matrix and identify trade-offs by decomposing **G** with a PCA to quantify the correlational structure. Plot PCA loadings as a function of environment. 
 
@@ -31,7 +37,7 @@ The cool thing here is that any of these possibilities can be captured by PC1, w
 
 A different approach: [Template mode variation](http://www.ncbi.nlm.nih.gov/pubmed/16032579)
 
-### Correlate responses of genotypes to where they were found (source population)    
+### Part 2. Correlate responses of genotypes to where they were found (source population)    
 
 We could fit functions to growth curves and then extract parameters. Plot parameters against source climate. This will get at the local adaptation part. 
 
@@ -43,11 +49,9 @@ Approach:
 
 # Broader Impacts    
 
-```How well does the activity advance discovery and understanding while promoting teaching, training, and learning? How well does the proposed activity broaden the participation of underrepresented groups (e.g., gender, ethnicity, disability, geographic, etc.)? To what extent will it enhance the infrastructure for research and education, such as facilities, instrumentation, networks, and partnerships? Will the results be disseminated broadly to enhance scientific and technological understanding? What may be the benefits of the proposed activity to society?
-```
+```How well does the activity advance discovery and understanding while promoting teaching, training, and learning? How well does the proposed activity broaden the participation of underrepresented groups (e.g., gender, ethnicity, disability, geographic, etc.)? To what extent will it enhance the infrastructure for research and education, such as facilities, instrumentation, networks, and partnerships? Will the results be disseminated broadly to enhance scientific and technological understanding? What may be the benefits of the proposed activity to society?```
 
 
 # Intellectual Merit  
 
-```How important is the proposed activity to advancing knowledge and understanding within its own field or across different fields? How well qualified is the proposer (individual or team) to conduct the project? (If appropriate, the reviewer will comment on the quality of the prior work.) To what extent does the proposed activity suggest and explore creative, original, or potentially transformative concepts? How well conceived and organized is the proposed activity? Is there sufficient access to resources?
-```
+```How important is the proposed activity to advancing knowledge and understanding within its own field or across different fields? How well qualified is the proposer (individual or team) to conduct the project? (If appropriate, the reviewer will comment on the quality of the prior work.) To what extent does the proposed activity suggest and explore creative, original, or potentially transformative concepts? How well conceived and organized is the proposed activity? Is there sufficient access to resources?```
