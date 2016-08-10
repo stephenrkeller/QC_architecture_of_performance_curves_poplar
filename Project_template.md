@@ -7,8 +7,8 @@
 4. Determinants of resiliency to environmental change in Poplar.  
 
 # Table of Contents: 
-* [Question 1](#id-section1).  How does the quantitative genetic architecture of woody biomass shift alongside a variable environment?    
-* [Are there new shifts in episodic selection regimes in poplar?](#id-section2). 
+* [Question 1. How does the quantitative genetic architecture of woody biomass shift alongside a variable environment? ](#id-section1).     
+* [Question 2. Are there new shifts in episodic selection regimes in poplar?](#id-section2). 
 * [Broader Impacts](#id-section3). 
 * [Intellectual merit](#id-section4). 
 
@@ -56,7 +56,7 @@ Notes:
 
 **Approach:** Overlay and compare historical and contemporary selection regimes. Phenotype and collect samples out in the field and compare with common garden. When in the field, estimate historical selection. 
 
-Prediction:
+Prediction:     
 1. 
 
 <div id='id-section3'/>
