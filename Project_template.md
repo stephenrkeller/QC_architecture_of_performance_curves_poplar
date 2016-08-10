@@ -8,7 +8,7 @@
 
 # Table of Contents: 
 * [Question 1](#id-section1).  How does the quantitative genetic architecture of woody biomass shift alongside a variable environment?    
-* [Question 2](#id-section2). 
+* [Are there new shifts in episodic selection regimes in poplar?](#id-section2). 
 * [Broader Impacts](#id-section3). 
 * [Intellectual merit](#id-section4). 
 
@@ -45,18 +45,19 @@ We could fit functions to growth curves and then extract parameters. Plot parame
 Notes:        
 
 1. **We can also couple a viability experiment in this project**     
-2. Genomics part to develop: **Function valued traits are dynamic, are the same loci always involved?**    
+2. Genomics part to develop: **Function valued traits are dynamic, are the same loci always involved?**, do QTL?        
 3. I do want to add an additional 3 levels of moisture(or other important environmental parameter), but just kept the 9-12 common gardens for now. I do have ideas and resources for how to analyze the added factors [here](https://github.com/adnguyen/Dissertation_temperature_adaptation_ants/blob/master/General_Notebook.md#page-2-2016-05-13-comparing-g-matrices-of-different-populations).     
 
 <div id='id-section2'/>
+## **Question 2:** Are there novel shifts in episodic selection regimes in poplar?     
 
-**Question 2:**
-
-Hypothesis: 
+**Hypothesis:** Human-induced climate change is altering selective regimes in natural populations. And can we predict future responses to climate change to determine genotypes that are resilient or susceptible? 
 
 
-Approach: 
+**Approach:** Overlay and compare historical and contemporary selection regimes. Phenotype and collect samples out in the field and compare with common garden. When in the field, estimate historical selection. 
 
+Prediction:
+1. 
 
 <div id='id-section3'/>
 
