@@ -1,11 +1,20 @@
 **Date: 2016-08-10**
 
+<<<<<<< HEAD
 *Andrew -- testing out my first branch and commit edits in Github. I'll put all my comments in italics to distinguish them. Let me know if I should change the way we do this. -Steve*
 
 # Working titles:    
 1. Quantitative genetic architecture of growth under dynamic/multiple stressors in Poplar.
 
 *This is by far my favorite title. We may want to tweak it a bit down the road to bring in some or all of the following ideas: function-valued traits, genomic prediction, gradient of growing season length*
+=======
+*Andrew -- testing out my first branch and commit edits in Github. I'll preface all my comments with '' to distinguish them. Let me know if I should change the way we do this. -Steve*
+
+# Working titles:    
+1. Quantitative genetic architecture of growth under dynamic/multiple stressors in Poplar.     
+
+*This is by far my favorite title. We may want to tweak it a bit down the road to bring in some or all of the following ideas: function-valued traits, genomic prediction, gradient of growing season length*      
+>>>>>>> adnguyen/master
 
 
 2. Understanding evolutionary constraints in growth under multiple stressors in Poplar.
