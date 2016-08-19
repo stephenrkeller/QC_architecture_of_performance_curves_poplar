@@ -1,0 +1,64 @@
+---
+title: "NSF PRGP"
+author: "Antdrew D. Nguyen"
+date: "2016-August-19"
+output: pdf_document
+---
+
+```{r libraries,echo=FALSE}
+library(mapdata)
+library(maptools)
+library(raster)
+library(ggplot2)
+library(RColorBrewer)
+library(rgeos)
+library(ggmap)
+```
+
+
+```{r GSL data}
+x<-read.csv("20160819_GSL_sites.csv")
+#w <- getData('worldclim', var='bio', res=10)
+#states.shp<-readShapeSpatial("USA_adm1.shp")
+colfunc<-colorRampPalette(c("blue","red"))
+or.x<-x[order(x$Non_freeze_length),]
+
+par(mar=c(10,10,10,10))
+plot(w, 1, xlim=c(-76,-70), ylim=c(43,46),col="white", axes=TRUE, legend=F,main="",box=FALSE,las=1,xlab="Latitude",ylab="Longitude")
+map("worldHires",c("USA","Canada"),add=TRUE)
+map("state", c('new york','vermont','new hampshire'), add = TRUE)
+points(or.x$Lon,or.x$Lat,col=colfunc(length(or.x$Site)),pch=16,cex=2)
+#legend(-75.9,46,legend=x$Site.name,pch=16,col=rev(colfunc(length(x$Site))),horiz=T,cex=.65)
+legend(-72,46.45,legend=or.x$Site.name,pch=16,col=colfunc(length(x$Site)),cex=.65,title="Growing Season Length (Julian Days)")
+box()
+text(c(-75,-72.9),c(43.5,43),labels=c("New York","Vermont"))#text(x$Lon,x$Lat-.09,labels=x$Site.name,cex=.5)
+
+
+```
+
+```{r}
+bo<-make_bbox(lon=x$Lon,lat=x$Lat,f=.6)
+bo
+
+sq_map<-get_map(location=bo,maptype="toner-lite",source="stamen")
+
+ggmap(sq_map)+geom_point(data=x,mapping=aes(x=Lon,y=Lat,col="red"),size=5)
+
+states<-map_data("state")
+vtny<-subset(states, region %in% c("vermont","new york"))
+counties<-map_data("county")
+vtny.c<-subset(counties,region %in% c("vermont","new york"))
+
+sites<-ggplot(data=vtny,mapping=aes(x=long,y=lat,group=group))+coord_fixed()+geom_polygon(color="black",fill="gray")
+sites
+
+sites+theme_nothing()+geom_polygon(data=vtny.c,fill=NA,color="white")+geom_polygon(color="black",fill=NA)+scale_x_continuous(limits=c(-79,-70))+scale_y_continuous(limits=c(40,47))
+
+
+#qmap("Vermont",zoom=7,maptype="toner",source="stamen")+geom_point(data=x,aes(y=Lat,x=Lon),size=5,color="red")
+
+#usa<-map_data("usa")
+
+#ggplot()+geom_polygon(data=usa,aes(x=long,y=lat))
+```
+

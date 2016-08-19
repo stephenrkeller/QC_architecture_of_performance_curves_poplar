@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"NSF PRGP\"\nauthor: \"Antdrew D. Nguyen\"\ndate: \"2016-August-19\"\noutput: pdf_document\n---\n\n```{r libraries,echo=FALSE}\nlibrary(mapdata)\nlibrary(maptools)\nlibrary(raster)\nlibrary(ggplot2)\nlibrary(RColorBrewer)\nlibrary(rgeos)\nlibrary(ggmap)\n```\n\n\n```{r GSL data}\nx<-read.csv(\"20160819_GSL_sites.csv\")\n#w <- getData('worldclim', var='bio', res=10)\n#states.shp<-readShapeSpatial(\"USA_adm1.shp\")\ncolfunc<-colorRampPalette(c(\"blue\",\"red\"))\nor.x<-x[order(x$Non_freeze_length),]\n\npar(mar=c(10,10,10,10))\nplot(w, 1, xlim=c(-76,-70), ylim=c(43,46),col=\"white\", axes=TRUE, legend=F,main=\"\",box=FALSE,las=1,xlab=\"Latitude\",ylab=\"Longitude\")\nmap(\"worldHires\",c(\"USA\",\"Canada\"),add=TRUE)\nmap(\"state\", c('new york','vermont','new hampshire'), add = TRUE)\npoints(or.x$Lon,or.x$Lat,col=colfunc(length(or.x$Site)),pch=16,cex=2)\n#legend(-75.9,46,legend=x$Site.name,pch=16,col=rev(colfunc(length(x$Site))),horiz=T,cex=.65)\nlegend(-72,46.45,legend=or.x$Site.name,pch=16,col=colfunc(length(x$Site)),cex=.65,title=\"Growing Season Length (Julian Days)\")\nbox()\ntext(c(-75,-72.9),c(43.5,43),labels=c(\"New York\",\"Vermont\"))#text(x$Lon,x$Lat-.09,labels=x$Site.name,cex=.5)\n\n\n```\n\n```{r}\nbo<-make_bbox(lon=x$Lon,lat=x$Lat,f=.6)\nbo\n\nsq_map<-get_map(location=bo,maptype=\"toner-lite\",source=\"stamen\")\n\nggmap(sq_map)+geom_point(data=x,mapping=aes(x=Lon,y=Lat,col=\"red\"),size=5)\n\nstates<-map_data(\"state\")\nvtny<-subset(states, region %in% c(\"vermont\",\"new york\"))\ncounties<-map_data(\"county\")\nvtny.c<-subset(counties,region %in% c(\"vermont\",\"new york\"))\n\nsites<-ggplot(data=vtny,mapping=aes(x=long,y=lat,group=group))+coord_fixed()+geom_polygon(color=\"black\",fill=\"gray\")\nsites\n\nsites+theme_nothing()+geom_polygon(data=vtny.c,fill=NA,color=\"white\")+geom_polygon(color=\"black\",fill=NA)+scale_x_continuous(limits=c(-79,-70))+scale_y_continuous(limits=c(40,47))\n\n\n#qmap(\"Vermont\",zoom=7,maptype=\"toner\",source=\"stamen\")+geom_point(data=x,aes(y=Lat,x=Lon),size=5,color=\"red\")\n\n#usa<-map_data(\"usa\")\n\n#ggplot()+geom_polygon(data=usa,aes(x=long,y=lat))\n```\n\n",
+    "created" : 1471611252716.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "38|6|62|3|\n",
+    "hash" : "712782096",
+    "id" : "7AF6177A",
+    "lastKnownWriteTime" : 1471619899,
+    "path" : "~/zScience/QC_architecture_of_performance_curves_poplar/Figures_Maps/Figures_Maps_PGRP.Rmd",
+    "project_path" : "Figures_Maps_PGRP.Rmd",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
