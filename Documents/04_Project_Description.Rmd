@@ -1,0 +1,49 @@
+---
+title: "Project Description"
+header-includes:
+   - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
+output: 
+  pdf_document:
+    fig_caption: yes
+---
+
+
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=400pt]{Figures_related/20160819_sampling_map_common_gardens.pdf}
+\caption{11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.}
+\end{figure}     
+
+
+
+    
+\begin{figure}[ht!]
+\centering
+\includegraphics[keepaspectratio,width=\textwidth, height=.4\textheight]{Figures_related/2016_perf_curves.png}  
+\caption{Predictions for the outcome of common garden experiment which vary in growing season length.}
+\end{figure}           
+
+
+
+
+
+```{r time table,floating=FALSE,echo=FALSE,results='asis'}
+b<-read.csv("Figures_related/Time_table.csv")
+names(b)<-c("Task","2017","2018","2019","2020")
+
+#knitr::kable(b,caption="Timetable of yearly goals")
+
+library(pander)
+panderOptions("table.style", "grid")
+#panderOptions("graph.grid.lty","dashed")
+pandoc.table(b,split.table=Inf,style="grid",justify="left",caption="Time table of yearly goals",emphasize.strong.cols=1,keep.line.breaks = TRUE)
+
+#library(xtable)
+#bb<-xtable(b,able.placement = "!ht")
+#print(bb)
+```
+
+
+
