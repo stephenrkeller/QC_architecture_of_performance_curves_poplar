@@ -4,14 +4,36 @@ header-includes:
    - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
 output: pdf_document
 ---
-*Overview*   
+\begin{raggedleft}
+\textit{Overview}  
+\end{raggedleft}  
+
+  
+
+Why does historical adaptation lead to contemporary constraints? 
+\begin{raggedright} Typically, low standing genetic variation in functionally relevant traits may be the key limiting factor in response to novel selection regimes. On the other hand, even if standing genetic variation is large, negative correlations between functionally relevant traits may lead to constraints in evolutionary responses. However, the genetic basis of adaptation appears more complex because the genotype to phenotype map shifts alongside environmental gradients, leading to difficulty in predicting population responses to new environments. Therefore, the context in which a genotype produces a phenotype across different environments is poorly understood. 
+
+Balsam poplar (*Populus basamifera*) represents an economically and ecologically important tree species that
+
+is amenable to quantitative genetic and genomic analyses. Current common garden 
+
+
+New techniques in quantitative genetic theory and genomic sequencing allow for unprecedented resolution of the genotype-phenotype map across different environments. 
+
+
+I propose to 1) identify genetic constraints in growth performance over varying growing season lengths and 2) uncover the genomic landscape of trade-offs. 
+\end{raggedright}
 
 
 
-*Intellectual Merit*    
+
+\begin{center}
+\textit{Intellectual Merit}  
+\end{center}   
 
 
 
-
-*Broader Impacts*     
+\begin{center}
+\textit{Broader Impact}  
+\end{center}   
 No single scientist is an island. 
