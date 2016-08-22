@@ -147,7 +147,8 @@ Prediction:
 2. This work will help us understand the determinants of resiliency or susceptibility *of ...* to human-induced environmental change.   
 
 <div id='id-section5'/>
-## Timeline
+## Timeline     
+
 
 +----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
 | Tasks                      | X2017                         | X2018                          | X2019                        | X2020                         |
@@ -174,7 +175,8 @@ Prediction:
 | **7) Data Management**     | Initiate project and share on | Utilize github repository to   |                              | ^                             |
 |                            | Github                        | track progress and back up     |                              |                               |
 |                            |                               | data                           |                              |                               |
-+----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+     
+
 
 
 
