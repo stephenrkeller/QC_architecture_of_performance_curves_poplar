@@ -2,38 +2,51 @@
 title: "Project Summary"
 header-includes:
    - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
-output: pdf_document
+output:
+  pdf_document:
+    latex_engine: xelatex
+mainfont: Times New Roman
+fontsize: 16
 ---
+\large
+\makeatletter
+\newcommand\iraggedright{%
+  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+  \leftskip\z@skip}
+\makeatother
+\iraggedright
+
+
+
+
+
 \begin{raggedleft}
-\textit{Overview}  
+\textbf{Overview}  
 \end{raggedleft}  
 
   
 
-Why does historical adaptation lead to contemporary constraints? 
-\begin{raggedright} Typically, low standing genetic variation in functionally relevant traits may be the key limiting factor in response to novel selection regimes. On the other hand, even if standing genetic variation is large, negative correlations between functionally relevant traits may lead to constraints in evolutionary responses. However, the genetic basis of adaptation appears more complex because the genotype to phenotype map shifts alongside environmental gradients, leading to difficulty in predicting population responses to new environments. Therefore, the context in which a genotype produces a phenotype across different environments is poorly understood. 
-
-Balsam poplar (*Populus basamifera*) represents an economically and ecologically important tree species that
-
-is amenable to quantitative genetic and genomic analyses. Current common garden 
+Why does historical adaptation lead to contemporary constraints? Low standing genetic variation in functionally relevant traits may be the key limiting factor in response to novel selection regimes. On the other hand, even if standing genetic variation is large, negative correlations between functionally relevant traits may constrain evolutionary responses. However, the genetic basis of adaptation appears more complex because the genotype to phenotype map shifts alongside environmental gradients, suggesting that even the same trait has a dynamic genomic basis when expressed under different enviornments, yet we understand very little about this process. Thus, significant gene x environment interaction leads to difficulty in predicting population responses to new environments, particularly when responses are non-linear. 
 
 
-New techniques in quantitative genetic theory and genomic sequencing allow for unprecedented resolution of the genotype-phenotype map across different environments. 
+Non-linear responses of a phenotype with respect to the environment is best imagined as a continuous function, known as a function-valued trait. Despite a rich literature and development of quantitative genetic theory surrounding function-valued traits, we know very little about its genomic basis. For example, if a function-valued trait occurs as a logistic function, the exponential portion may relate to regulatory gene elements which are responsible for gene expression, while the maximum portion should be more associated with sequence variation which are related to activity. These hypotheses are yet to be explored.
+
+Balsam poplar (*Populus basamifera*) represents an economically and ecologically important cottonwood tree species that is a ripe system to understand gene by environment interactions, particularly due to the vast natural history and genomic resources available. They can be propograted clonally which makes them amenable for common garden experiments. Current common gardens show that populations display clines in phenology with signatures of positive selection in genomic regions related to phenology. However, growing season length and temperature are confounded in these analyses because common gardens are planted along a latitudinal gradient. Therefore, **I propose to 1) identify genetic constraints in woody biomass production over varying growing season lengths while controlling for temperature and 2) uncover the genomic landscape of trade-offs associated with growing season lengths**.    \newline
 
 
-I propose to 1) identify genetic constraints in growth performance over varying growing season lengths and 2) uncover the genomic landscape of trade-offs. 
-\end{raggedright}
+\begin{raggedleft}
+\textbf{Intellectual Merit}  
+\end{raggedleft}   
+ 
+This work will contribute to understanding the limits of adaptation to changing environments, particularly when the genetic architecture of adaptation involves integration of function-valued traits. This project will link quantitative genetic theory with the genomic underpinnings of an ecological and economically important trait: woody biomass production. Therefore, proper identification of trade-offs not only aide in predicting resiliency or susceptibility to climate change, but it also has an applied value. No single genotype is best suited for all environments and this work will inform optimal selection of cultivars for poplar farmers. \newline
+
+
+\begin{raggedleft}
+\textbf{Broader Impact}  
+\end{raggedleft}   
+No single scientist operates on a secluded island and it is my firm belief that the process of science is a social endeavor. Therefore, I will work closely with my post-doctoral mentor, Dr. Steven Keller, to develop a greater foundation in ecological genetics and further enhance my pre-existing skills in genomic analyses. I will also mentor undergraduate researchers in the plant biology department at the University of Vermont with the goal of leading them to first author publications. Burlington, Vermont is a resettlement site for refugee from Nepal, Vietnam, and Africa; therefore funding from NSF will allow me to engage with these under-represented miniorities. Burlington is one of my common garden sites, therefore, I will offer the opportunity for local middle and high school students to participate in phenotyping poplar and experience how science works. Experiencing and participating in science is absolutely critical for fostering an interest in science. In fact, my fascination with the natural world did not occur until college and one of my major goals is to open young minds to the prospect that becoming a scientist is a real profession. 
+
+Outside of interacting with local communities, I will share my research with other scientists and poplar farmers. First, I will attend conferences to dessiminate critical findings via oral presentations. All data generated from this project will be stored and shared on open data repositories such as Github. Therefore, any scientist (or even non-scientist) may repeat and reproduce analyses. Second, I will reach out to local poplar farmers to prescribe genotypes that will optimally grow in their region. To illustrate my findings, I will create an Shiny application which is an interaction web user-interface that will display scientific results in a digestable manner. 
 
 
 
-
-\begin{center}
-\textit{Intellectual Merit}  
-\end{center}   
-
-
-
-\begin{center}
-\textit{Broader Impact}  
-\end{center}   
-No single scientist is an island. 

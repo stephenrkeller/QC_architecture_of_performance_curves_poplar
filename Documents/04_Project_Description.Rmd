@@ -5,33 +5,52 @@ header-includes:
 output: 
   pdf_document:
     fig_caption: yes
+    latex_engine: xelatex
+mainfont: Times New Roman
+fontsize: 14
 ---
+\fontsize{12}{12}
+
+\begin{raggedleft}
+\textbf{Introduction/Motivation}  \newline
+\end{raggedleft}   
+
+\begin{raggedleft}
+\textbf{Research Objectives}  \newline
+\end{raggedleft}   
+
+![](Figures_related/20160819_sampling_map_common_gardens.pdf)     
+Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.
+
+
+![](Figures_related/2016_perf_curves.pdf)
+Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.
 
 
 
-
-\begin{figure}[ht!]
-\centering
-\includegraphics[width=400pt]{Figures_related/20160819_sampling_map_common_gardens.pdf}
-\caption{11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.}
-\end{figure}     
+\begin{raggedleft}
+\textbf{Training Objectives}  \newline
+\end{raggedleft}
 
 
 
-    
-\begin{figure}[ht!]
-\centering
-\includegraphics[keepaspectratio,width=\textwidth, height=.4\textheight]{Figures_related/2016_perf_curves.png}  
-\caption{Predictions for the outcome of common garden experiment which vary in growing season length.}
-\end{figure}           
+\begin{raggedleft}
+\textbf{Career Development}  \newline
+\end{raggedleft}   
+
+\begin{raggedleft}
+\textbf{Choice of Sponsoring Scientists}  \newline
+\end{raggedleft}
 
 
-
+\begin{raggedleft}
+\textbf{Broader Impacts and Timetable}  \newline
+\end{raggedleft}   
 
 
 ```{r time table,floating=FALSE,echo=FALSE,results='asis'}
 b<-read.csv("Figures_related/Time_table.csv")
-names(b)<-c("Task","2017","2018","2019","2020")
+names(b)<-c("Tasks and Goals","2017","2018","2019","2020")
 
 #knitr::kable(b,caption="Timetable of yearly goals")
 
@@ -44,6 +63,3 @@ pandoc.table(b,split.table=Inf,style="grid",justify="left",caption="Time table o
 #bb<-xtable(b,able.placement = "!ht")
 #print(bb)
 ```
-
-
-
