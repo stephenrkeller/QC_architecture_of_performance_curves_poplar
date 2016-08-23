@@ -7,17 +7,26 @@ output:
     fig_caption: yes
     latex_engine: xelatex
 mainfont: Times New Roman
-fontsize: 14
+fontsize: 16
 ---
-\fontsize{12}{12}
+\large
+\makeatletter
+\newcommand\iraggedright{%
+  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+  \leftskip\z@skip}
+\makeatother
+\iraggedright
 
 \begin{raggedleft}
 \textbf{Introduction/Motivation}  \newline
 \end{raggedleft}   
+  
+  Gene by environment (G x E) interactions muddle our ability to predict how organisms can persist in a variable environment.  
 
 \begin{raggedleft}
 \textbf{Research Objectives}  \newline
 \end{raggedleft}   
+  I propose to study the G x E interactions within balsam poplar. 
 
 ![](Figures_related/20160819_sampling_map_common_gardens.pdf)     
 Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.
@@ -29,19 +38,31 @@ Figure 2. Predictions for the outcome of common garden experiment which vary in 
 
 
 \begin{raggedleft}
-\textbf{Training Objectives}  \newline
+\textbf{Training Objectives} 
 \end{raggedleft}
+The training objectives I have developed involve **3 general goals**: 1) Apply my current evolutionary physiology background in insects (ants) to plant systems; 2) Acquire more statistical and bioinformatic tools to uncover complex biological patterns associated with genomic and phenotypic datasets; 3) Optimally communicate science to diverse backgrounds.    
 
+**Goal 1**: One of the first steps in applying theory is getting to know your organism. Therefore, a foundation in natural history of balsam poplar will be absolutely critical for how I approach analyzing data. To achieve this goal, I will not only delve into the primary literature (or should I have done this by now?) but also aide in ongoing common gardens in Burlington, Vt and Indian head Canada, which will also involve interacting with experts in the field. 
+
+**Goal 2**: Although I have worked with next-generation genomic data in my dissertation, there is much more to learn, particularly with respect to creating genotype-phenotype maps across varying season lengths. To aide in this goal, I will consult and meet with my post-doctoral advisor on a weekly basis when data are ready to be analyzed. 
+
+**Goal 3**:
+1. Learn about the natural history of poplar and plant systems in general
+2. Aquire more statistical and bioinformatic tools in analyzing next generation sequence data. 
+3. Usher in the next wave of scientists
+4. Communicate findings at scientific meetings and local poplar farmers
 
 
 \begin{raggedleft}
 \textbf{Career Development}  \newline
 \end{raggedleft}   
+Life long goal is to discover and uncover novel trends in biological systems, whether as an academic, consultant, or data scientist. 
+
 
 \begin{raggedleft}
 \textbf{Choice of Sponsoring Scientists}  \newline
 \end{raggedleft}
-
+introduction to a brand new system. 
 
 \begin{raggedleft}
 \textbf{Broader Impacts and Timetable}  \newline
