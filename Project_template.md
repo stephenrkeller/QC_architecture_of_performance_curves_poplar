@@ -1,12 +1,13 @@
-**Date: 2016-08-10**
+**Date: 2016-08-10**      
 
-<<<<<<< HEAD
+
 *Andrew -- testing out my first branch and commit edits in Github. I'll put all my comments in italics to distinguish them. Let me know if I should change the way we do this. -Steve*
 
 # Working titles:    
 1. Quantitative genetic architecture of growth under dynamic/multiple stressors in Poplar.
 
-*This is by far my favorite title. We may want to tweak it a bit down the road to bring in some or all of the following ideas: function-valued traits, genomic prediction, gradient of growing season length*
+*This is by far my favorite title. We may want to tweak it a bit down the road to bring in some or all of the following ideas: function-valued traits, genomic prediction, gradient of growing season length*   
+
 =======
 *Andrew -- testing out my first branch and commit edits in Github. I'll preface all my comments with '' to distinguish them. Let me know if I should change the way we do this. -Steve*
 
@@ -14,7 +15,6 @@
 1. Quantitative genetic architecture of growth under dynamic/multiple stressors in Poplar.     
 
 *This is by far my favorite title. We may want to tweak it a bit down the road to bring in some or all of the following ideas: function-valued traits, genomic prediction, gradient of growing season length*      
->>>>>>> adnguyen/master
 
 
 2. Understanding evolutionary constraints in growth under multiple stressors in Poplar.
@@ -147,13 +147,45 @@ Prediction:
 2. This work will help us understand the determinants of resiliency or susceptibility *of ...* to human-induced environmental change.   
 
 <div id='id-section5'/>
-## Timeline
-|Task                       |2017 |2018 |2019 |2020 |
-|:-----------------------|:-----|:-----|:-----|:-----|
-|Common Garden/field     |x     |x     |x     |x     |
-|Phenotyping             |      |x     |x     |x     |
-|Genomic Analyses        |      |x     |x     |x     |
-|Attending Conferences   |      |      |x     |x     |
-|Writing for publication |      |      |x     |x     |
-|Public Outreach         |      |x     |x     |x     |
+## Timeline     
 
+
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| Tasks                      | X2017                         | X2018                          | X2019                        | X2020                         |
++============================+===============================+================================+==============================+===============================+
+| **1) Common Garden/Field** | Set up field sites: Take 50   | Phenotype phenology, stress    |                              |                               |
+|                            | clones and plant 5 replicates | resistance and woody biomass   |                              |                               |
+|                            | across each common garden     | production                     |                              |                               |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| **2) Genomic Analyses**    |                               | Initiate QTL mapping of        |                              | Complete QTL mapping of       |
+|                            |                               | phenotypes                     |                              | phenotypes                    |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| **3) Attend Conferences**  |                               |                                | Present poster at Evolution  | Present talk at Evolution and |
+|                            |                               |                                | and MBE                      | MBE                           |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| **4) Manuscripts**         |                               | Write methods                  | Write methods and results    | Finish manuscript and submit  |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| **5) Mentoring**           | Develop projects with 2-3     | Aide undergraduate researchers | Aide in writing up findings  | Submit manuscripts with       |
+|                            | undergraduate researchers     | to implement developed         |                              | undergraduate researchers as  |
+|                            | under same common garden      | projects                       |                              | primary authors               |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| **6) Public Outreach**     | Set up 1 common garden with   | Involve high school students   | Involve high school students | Involve high school students  |
+|                            | high school students          | in phenotyping                 | in phenotyping               | in phenotyping                |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+
+| **7) Data Management**     | Initiate project and share on | Utilize github repository to   |                              | ^                             |
+|                            | Github                        | track progress and back up     |                              |                               |
+|                            |                               | data                           |                              |                               |
++----------------------------+-------------------------------+--------------------------------+------------------------------+-------------------------------+     
+
+
+
+
+
+# Goals of the national plant genome initiative
+
+* Minimization of inputs such as water, energy, pesticides, and fertilizer;
+* Effects of climate change and increased agricultural productivity;
+* Minimization of environmental impacts using plant genomics;
+* Opportunities for Federal agency coordination and cooperation and for public/private
+partnerships; and
+* Associated opportunities to enhance training, education, and public outreach.

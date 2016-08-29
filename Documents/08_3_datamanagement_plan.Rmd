@@ -1,0 +1,9 @@
+---
+title: "Data Management Plan"
+header-includes:
+   - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
+output: pdf_document
+---
+
+All publicly funded research should be made accessible to the public and other researchers so that findings are tractable, transparent, and reproducible. Over the course of my dissertation training, I have integrated open access to every stage of the scientific process using the Github platform (Noble 2009; Michener 2015). Each project that is a publishable unit will be arranged by tasks associated with the scientific method in the following folders: *data*, *analysis*, *results*, and *documentation*. All raw and processed data accompanied with metadata will be stored in the *data* folder. The analysis folder will hold my scripts for which I analyzed. Outcomes of the analyses and associated figures will be stored in the *results* folder. Protocols, a digitial notebook logging the progress of the project, and manuscripts will be stored in the *documentation* folder. Lastly, to ensure reproducibility and repeatability, I will share the whole project on Github (https://github.com/adnguyen). 
+
