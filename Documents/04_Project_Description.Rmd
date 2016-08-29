@@ -7,45 +7,83 @@ output:
     fig_caption: yes
     latex_engine: xelatex
 mainfont: Times New Roman
-fontsize: 14
+fontsize: 16
 ---
-\fontsize{12}{12}
+\large
+\makeatletter
+\newcommand\iraggedright{%
+  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+  \leftskip\z@skip}
+\makeatother
+\iraggedright
 
 \begin{raggedleft}
-\textbf{Introduction/Motivation}  \newline
+\textbf{Introduction/Motivation} 
 \end{raggedleft}   
+Contemporary selective regimes brought about by climate change threaten industries and terrestrial ecosystems, particularly for plant species of economical and ecological importance because they heavily rely on local environmental conditions (). Therefore, **we need to understand the mechanisms by which species achieve resiliency or susceptibility to novel environmental shifts**. Individuals may disperse to track suitable habitat but subsequent progeny may need to inhabit environments outside of their local optimum, which is a major feature of resilience. Populations may persist locally. Long-lived perrenial species must be flexible, meaning their genomes need to express optimal phenotypes to persist over potentially harsh environments within their lifetime, a property known as phenotypic plasticity (). However, we understand very little about the dynamic and non-linear nature of phenotypic plasticity in the context of environmental change and its genomic bases, which altogether muddles our ability to predict outcomes of climate change. 
+
+Recent empirical and theoretical work demonstrates that the genetic architecture is indeed labile (Wood & Brodie III 2015), suggesting genotype by environment interactions largely control trait expression (). 
+
+Balsam poplar is an exemplary model to understand the correlational structure between genotype to phenotypes under variable environments. They are amenable to quantitative genetics. \newline
 
 \begin{raggedleft}
-\textbf{Research Objectives}  \newline
-\end{raggedleft}   
+\textbf{Research Objectives}
+\end{raggedleft} 
 
+\begin{raggedleft}
+\textit{Objectives}
+\end{raggedleft}   
+I propose to detail and uncover the genetic constraints on woody biomass production of balsam poplar when exposed to varying growing season lengths (GSL) and soil moisture.  Genetic constraints will be explored in two approaches **1) Assessing quantitative genetic variation in woody biomass production** and **2) QTL mapping of woody biomass production as a function-valued trait.** 
+
+\begin{raggedleft}
+\textit{Experimental Approach}
+\end{raggedleft}  
+To understand uncover the 
 ![](Figures_related/20160819_sampling_map_common_gardens.pdf)     
-Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.
+**Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.**   \newline
 
+\begin{raggedleft}
+\textit{Anticipated Major Outcomes}
+\end{raggedleft}  
+The outcome of this work will inform growing practices. If we observe **overall variation** in growth, then the top cultivar operates the highest over many latitudes (Figure 2 A,B). However, if there are constraints between **lower-higher** growing season length, then only particular cultivars should be chosen at a given latitude (Figure 2 C,D). Finally, **generalist-specialist variation** would indicate that specific latitudes should utilize a certain cultivar (Figure 2 E,F). \newline
 
 ![](Figures_related/2016_perf_curves.pdf)
-Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.
-
-
+**Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.** The left panels illustrates different types of performance curves (growth) as a function of growing season length for three mock cultivars. The accompanying right panel figures illustrates the genetic correlation between growth and environmental condition using quantitative genetics techniques (Kingsolver 2001; Kingsolver et al. 2015). If **overall variation in growth is not constrained** (**A**), then growth is genetically correlated among all GSL conditions (**B**). However, if there is a **constraint in shorter-longer GSL** (**C**), then there will be opposing correlational structuring of performance among growing length condtions (**D**). Lastly, if there is **generalist-specialist variation** (**E**), then performance at intermediate GSL are negatively correlated with extreme GSL (**F**).\newline 
 
 \begin{raggedleft}
-\textbf{Training Objectives}  \newline
+\textit{Significance}
 \end{raggedleft}
 
-
-
 \begin{raggedleft}
-\textbf{Career Development}  \newline
-\end{raggedleft}   
-
-\begin{raggedleft}
-\textbf{Choice of Sponsoring Scientists}  \newline
+\textbf{Training Objectives} 
 \end{raggedleft}
+The training objectives I have developed involve **3 general goals**: 1) Apply my current evolutionary physiology background in insects (ants) to plant systems; 2) Acquire more statistical and bioinformatic tools to uncover complex biological patterns associated with genomic and phenotypic datasets; 3) Optimally communicate science to diverse backgrounds.    
+
+**Goal 1**: One of the first steps in applying theory is getting to know your organism. Therefore, a foundation in natural history of balsam poplar will be absolutely critical for how I approach analyzing data. To achieve this goal, I will not only delve into the primary literature (or should I have done this by now?) but also aide in ongoing common gardens in Burlington, Vt and Indian head Canada, which will also involve interacting with experts in the field. 
+
+**Goal 2**: Although I have worked with next-generation genomic data in my dissertation, there is much more to learn, particularly with respect to creating genotype-phenotype maps across varying season lengths. To aide in this goal, I will consult and meet with my post-doctoral advisor on a weekly basis when data are ready to be analyzed. 
+
+**Goal 3**: Science will solve pressing issues that we face today, such as the negative effects of climate change. Therefore, it is my firm belief that science should be shared to all people, whether a student, a farmer, or other scientists. Therefore, I will usher in the next wave of scientists by mentoring high school and undergraduate researchers. I will communicate my findings with poplar farmers.  I will present my findings at scientific meetings to obtain feedback and create a scientific network that is cohesive. \newline
 
 
 \begin{raggedleft}
-\textbf{Broader Impacts and Timetable}  \newline
+\textbf{Career Development}  
 \end{raggedleft}   
+Funding will facilitate my long term goal: **discover and uncover novel trends in biological systems/processes**, whether as an academic, consultant, or data scientist. I find enjoyment in analyzing data, sharing it in  a digestable manner, and applying the outcomes to solve real world problems. Today's problems often inolve handling big-data and synthesis between fields. Funding for the proposed work will allow me create explicit links between two fields: quantitative genetics and the molecular bases of complex traits. To create these links, I will further develop my statistical and bioninformatic capabilities to analyze large datasets generated from next-generation sequencing. 
+
+Although the research theme is similar, the proposed work is substantially different from my dissertation. My dissertation focused on how molecular level processes explains diversity at the species-level and utilizing this information to predict ant species responses to climate change. However, species comprise of many populations, whose responses may vary themselves. Therefore, as an NSF post-doctoral fellow, I hope to approach climate change adaptation at the population-level using a completely different system, such as balsam poplar. \newline
+
+\begin{raggedleft}
+\textbf{Choice of Sponsoring Scientists}
+\end{raggedleft}
+In collaboration with **Dr. Stephen Keller at the University of Vermont**, I will be able to explore my ideas in bridging links between quantitative genetics and the genomic basis of function-valued traits on an economically and ecologically important cottonwood tree species (balsam poplar). Trees also do not move, unlike the ants, and are amenable to quantitative genetic analyses because trees may be clonally propogated. Dr. Keller has been working on balsam poplar for X years and has established an immense amount of genomic resources through the funding of the **National Plant Genome Initiative** (NPGI). Over the span of his career, Dr. Keller has published **27 peer-reviewed manuscripts**, whose track record I wish to one day achieve. This high productivity uncovered shifts in population structure due to historical climate change which is reflected in their phenological traits with strong signatures of selection for critical loci relating to phenology. Therefore, Dr. Keller utilizes diverse approaches such as field surveys, lab work, and computational skills (genomic analyses) to answer pressing issues that we face today and he has established himself as a pioneer and leader in climate change biology.\newline
+
+\begin{raggedleft}
+\textbf{Broader Impacts and Timetable} 
+\end{raggedleft}   
+The proposed activities will increase our understanding of how gene x environment interactions shape critically important phenotypes, such woody biomass production which is of economical importance. Furthermore, the proposed work will foster and develop my own skill sets and allow me to contribute to the development of others or in other words: *Scientists begets another scientist*. First, I plan to work closely with my NSF postdoctoral mentor, Dr. Stephen Keller, to learn a brand new study system, balsam poplar. Together, we will establish 6-12 common garden sites in 2017 and quantify woody biomass production over the next field seasons (2018-2020 summers; Table 1, #1). We will also pair phenotypic results with genomic analyses to uncover the molecular bases of constraints starting the fall of the first phenotyping (Fall 2018; Table 1, #1). Concomittantly, I will begin writing methods (2018), results (2019), and submit findings as a manuscript (2020) in open access journals so that findings reach all scientists and layperson. I will also implement strong data management strategies (2017) such as version control, online notebooking for absolute transparency, and open access so that any scientist or even layperson may recaptiulate critical results. To dessiminate my work further with other scientists, I will attend conferences such as Evolution and Molecular Biology and Evolution (MBE; 2019 and 2020). To dessiminate my work to a much broader audience, I will create an interactive "Shiny" Web Application all of the proposed work (Table 1, #7). 
+
+To complete my goal of ushering the next wave of scientific minds, I will involve both high school and undergraduate students as activate participants in our proposed project. Additional phsyiological metrics such as stress tolerance and phenology will pair nicely with the current scope of the project. For undergraduate students, I will develop projects with them as well as instill strong data management practices and eventually transform their outcomes into first author publications in open access journals. Since the University of Vermont strongly supports undergraduate investigators to showcase their research, I will bring them to conferences so they can present posters and/or oral presentations (Table 1, #5). I will collaborate with local high schools by hosting workshops to involve students with the proposed work (Table 1, #6). Specifically, Burlington High School has a 2 week period for students to explore an array of interests and I will recruit students to assist in sampling in our common gardens. Since Burlington is a target site for refugees from African countries (~20), Nepal, and Vietnam, students with diverse backgrounds will surely be represented.
 
 
 ```{r time table,floating=FALSE,echo=FALSE,results='asis'}

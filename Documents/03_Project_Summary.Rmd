@@ -26,7 +26,11 @@ fontsize: 16
 
   
 
+<<<<<<< HEAD
 Why does historical adaptation lead to contemporary constraints? 
+=======
+Why does historical adaptation lead to contemporary constraints? Low standing genetic variation in functionally relevant traits may be the key limiting factor in response to novel selection regimes. On the other hand, even if standing genetic variation is large, negative correlations between functionally relevant traits may constrain evolutionary responses. However, the genetic basis of adaptation appears more complex because the genotype to phenotype map shifts alongside environmental gradients, suggesting that even the same trait has a dynamic genomic basis when expressed under different environments, yet we understand very little about this process. Thus, significant gene by environment interaction leads to difficulty in predicting population responses to new environments, particularly when responses are non-linear. 
+>>>>>>> Project_description
 
 *Suggest slight change to: "How does historical selection on natural variation lead to contemporary constraints on growth and productivity under novel environments?"*
 
