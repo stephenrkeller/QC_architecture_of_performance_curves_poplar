@@ -7,7 +7,11 @@
     },
     "right" : {
         "panelheight" : 974,
+<<<<<<< HEAD
         "splitterpos" : 614,
+=======
+        "splitterpos" : 612,
+>>>>>>> Project_description
         "topwindowstate" : "MINIMIZE",
         "windowheight" : 1012
     }
