@@ -4,7 +4,6 @@ header-includes:
    - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
 output: 
   pdf_document:
-    fig_caption: yes
     latex_engine: xelatex
 mainfont: Times New Roman
 fontsize: 16
@@ -44,15 +43,17 @@ I propose to detail and uncover the genetic constraints on woody biomass product
 \end{raggedleft}  
 To understand uncover the 
 ![](Figures_related/20160819_sampling_map_common_gardens.pdf)     
-**Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.**   \newline
+
+>**Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.**   \newline
 
 \begin{raggedleft}
 \textit{Anticipated Major Outcomes}
 \end{raggedleft}  
 The outcome of this work will inform growing practices. If we observe **overall variation** in growth, then the top cultivar operates the highest over many latitudes (Figure 2 A,B). However, if there are constraints between **lower-higher** growing season length, then only particular cultivars should be chosen at a given latitude (Figure 2 C,D). Finally, **generalist-specialist variation** would indicate that specific latitudes should utilize a certain cultivar (Figure 2 E,F). \newline
 
-![](Figures_related/2016_perf_curves.pdf)
-**Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.** The left panels illustrates different types of performance curves (growth) as a function of growing season length for three mock cultivars. The accompanying right panel figures illustrates the genetic correlation between growth and environmental condition using quantitative genetics techniques (Kingsolver 2001; Kingsolver et al. 2015). If **overall variation in growth is not constrained** (**A**), then growth is genetically correlated among all GSL conditions (**B**). However, if there is a **constraint in shorter-longer GSL** (**C**), then there will be opposing correlational structuring of performance among growing length condtions (**D**). Lastly, if there is **generalist-specialist variation** (**E**), then performance at intermediate GSL are negatively correlated with extreme GSL (**F**).\newline 
+![](Figures_related/2016_perf_curves.pdf)    
+    
+ >**Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.** The left panels illustrates different types of performance curves (growth) as a function of growing season length for three mock cultivars. The accompanying right panel figures illustrates the genetic correlation between growth and environmental condition using quantitative genetics techniques (Kingsolver 2001; Kingsolver et al. 2015). If **overall variation in growth is not constrained** (**A**), then growth is genetically correlated among all GSL conditions (**B**). However, if there is a **constraint in shorter-longer GSL** (**C**), then there will be opposing correlational structuring of performance among growing length condtions (**D**). Lastly, if there is **generalist-specialist variation** (**E**), then performance at intermediate GSL are negatively correlated with extreme GSL (**F**). \newline 
 
 \begin{raggedleft}
 \textit{Significance}
