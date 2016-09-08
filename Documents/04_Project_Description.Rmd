@@ -16,18 +16,16 @@ fontsize: 16
 \makeatother
 \iraggedright
 
+
+Working title: Quantitative genomic architecture of function-valued traits in Balsam Poplar. 
+
 \begin{raggedleft}
 \textbf{Introduction/Motivation} 
 \end{raggedleft}   
-Adaptation to historical climate conditions often lead to constraints in current conditions (). Long lived perrenials are suppose to be more plastic because they experience more within generational variability than among (Sheiner). 
 
-However, the nature of trade-offs are not completely understand 
+Adaptation to historical climate conditions often lead to constraints in current conditions (Etterson & Shaw 2001; Weins 2004), particularly if populations are exposed to novel environments such as those brought about by climate change (IPCC). **In response to a changing environment, what mechanisms lead populations to become resilient or susceptible?** Long-lived perrenial plant species that experience significant environmental variation within their lifespan must rely on the pre-existing genetic architecture to produce functional traits that match shifting environments in order to persist (Scheiner 1993; Gilchrist 1995). This genotype by environmental interaction that produce phenotypes often manifests in non-linear responses that can be represented as mathmetical expression, known as a *function-valued trait* (Kingsolver et al. 2001). **Visualizing a trait as such offers insights on the nature of trade-offs (Kingsolver et al. 2015), for example, genotypes may perform highest at specific windows of the environmental gradient (low-high trade-off) or operate over wider or shorter windows (generalist-specialist trade-off)**. Unfortunately, we have very little understanding for how complex environmental axes modulates trade-offs in function-valued traits, both at the phenotypic and genomic levels, which critically impairs predictions of species responses to climate change.
 
-Contemporary selective regimes brought about by climate change threaten industries and terrestrial ecosystems, particularly for plant species of economical and ecological importance because they heavily rely on local environmental conditions (). Therefore, **we need to understand the mechanisms by which species achieve resiliency or susceptibility to novel environmental shifts**. Individuals may disperse to track suitable habitat but subsequent progeny may need to inhabit environments outside of their local optimum, which is a major feature of resilience. Populations may persist locally. Long-lived perrenial species must be flexible, meaning their genomes need to express optimal phenotypes to persist over potentially harsh environments within their lifetime, a property known as phenotypic plasticity (). However, we understand very little about the dynamic and non-linear nature of phenotypic plasticity in the context of environmental change and its genomic bases, which altogether muddles our ability to predict outcomes of climate change. 
-
-Recent empirical and theoretical work demonstrates that the genetic architecture is indeed labile (Wood & Brodie III 2015), suggesting genotype by environment interactions largely control trait expression (). 
-
-Balsam poplar is an exemplary model to understand the correlational structure between genotype to phenotypes under variable environments. They are amenable to quantitative genetics. \newline
+Poplar is an exemplary model to understand the quantitative genomic architecture of trade offs in growth, imagined as a function-valued trait, across environmental gradients. Poplar represents a DOE flagship genus that provide key ecosystem services and are utilized as an alternative energy source. Therefore, growth is a functional trait of ecological and economical signifiance.  \newline
 
 \begin{raggedleft}
 \textbf{Research Objectives}
@@ -36,7 +34,7 @@ Balsam poplar is an exemplary model to understand the correlational structure be
 \begin{raggedleft}
 \textit{Objectives}
 \end{raggedleft}   
-I propose to detail and uncover the genetic constraints on woody biomass production of balsam poplar when exposed to varying growing season lengths (GSL) and soil moisture.  Genetic constraints will be explored in two approaches **1) Quantify the shifts in the genetic architecture in growth performance** and **2) Quantify any changes in the effects of previously identified quantitative loci associated with shifts in the genetic architecture.** 
+I propose to detail and uncover the genetic constraints on woody biomass production of balsam poplar when exposed to varying growing season lengths (GSL) and soil moisture.  Genetic constraints will be explored in two approaches **1) Quantify the shifts in the genetic architecture in growth performance both at the phenotypic and genomic levels** and **2)  Quantify any changes in the effects of previously identified quantitative loci associated with shifts in the genetic architecture and predict performance within natural populations.** 
 
 \begin{raggedleft}
 \textit{Experimental Approach}
@@ -53,7 +51,7 @@ The outcome of this work will inform growing practices. If we observe **overall 
 
 ![](Figures_related/2016_perf_curves.pdf)    
     
- >**Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.** The left panels illustrates different types of performance curves (growth) as a function of growing season length for three mock cultivars. The accompanying right panel figures illustrates the genetic correlation between growth and environmental condition using quantitative genetics techniques (Kingsolver 2001; Kingsolver et al. 2015). If **overall variation in growth is not constrained** (**A**), then growth is genetically correlated among all GSL conditions (**B**). However, if there is a **constraint in shorter-longer GSL** (**C**), then there will be opposing correlational structuring of performance among growing length condtions (**D**). Lastly, if there is **generalist-specialist variation** (**E**), then performance at intermediate GSL are negatively correlated with extreme GSL (**F**). \newline 
+ >**Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.** The left panels illustrates different types of performance curves (growth) as a function of growing season length for three mock cultivars. The accompanying right panel figures illustrates the genetic correlation between growth and environmental condition using quantitative genetics techniques (Kingsolver 2001; Kingsolver et al. 2015). If **overall variation in growth is not constrained** (**A**), then growth is genetically correlated among all GSL conditions (**B**). However, if there is a **trade-offs between shorter-longer GSL** (**C**), then there will be opposing correlational structuring of performance among growing length condtions (**D**). Lastly, if there is **generalist-specialist trade-offs** (**E**), then performance at intermediate GSL are negatively correlated with extreme GSL (**F**). \newline 
 
 \begin{raggedleft}
 \textit{Significance}
