@@ -1,10 +1,10 @@
 ---
-title: "Dissertation Abstract"
+title: "Dissertation Abstract: Temperature Adaptation in Common Forest Ants"
 header-includes:
    - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
 output: pdf_document
 ---
 
 Temperature is a fundamental environmental force shaping species abundance
-and distributions through its effects on biochemical reaction rates, metabolism, activity,and reproduction. In particular, 
+and distributions through its effects on biochemical reaction rates, metabolism, activity,and reproduction. In light of future climate shifts, mainly driven by temperature increases, how will organisms persist in a variable environment? In particular, ants are a good system to understand the physiological mechanisms associated with temperature tolerances because they have been able to diversify into thermally stressful environments. 
 
