@@ -1,3 +1,9 @@
+# 2016-09-12
+
+Working title tweak:  **Uncovering the quantitative genomic architecture of function-valued traits in Balsam Poplar to understand and predict responses to novel environments.** 
+
+
+
 **Date: 2016-08-10**      
 
 
