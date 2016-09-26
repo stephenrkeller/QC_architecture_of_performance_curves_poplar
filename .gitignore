@@ -4,3 +4,5 @@
 /Documents/*.tsv
 /Documents/*.csv
 /Documents/*.xlsx
+.DS_Store
+/Documents/.DS_Store
