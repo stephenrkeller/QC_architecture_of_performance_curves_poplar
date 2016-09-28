@@ -1,10 +1,28 @@
 ---
-title: "Dissertation Abstract"
+title: "Dissertation Abstract: Temperature Adaptation in Common Forest Ants"
 header-includes:
    - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
-output: pdf_document
+output: 
+  pdf_document:
+    latex_engine: xelatex
+mainfont: Times New Roman
 ---
+\large
+\makeatletter
+\newcommand\iraggedright{%
+  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+  \leftskip\z@skip}
+\makeatother
+\iraggedright
 
-Temperature is a fundamental environmental force shaping species abundance
-and distributions through its effects on biochemical reaction rates, metabolism, activity,and reproduction. In particular, 
+
+
+
+Temperature is a fundamental environmental force shaping species abundance and distributions through its effects on biochemical reaction rates, metabolism, activity,and reproduction. In light of future climate shifts, mainly driven by temperature increases, how will organisms persist in a warmer environment? For example, the cellular stress response (CSR) allow organisms to persist by protecting against molecular damage that impairs cell function. Molecular chaperones, such as Heat shock proteins (Hsps), are the main drivers of the CSR, which become up-regulated to prevent and rescue protein damage. However, we have a poor understanding of the functional diversity of Hsps in taxonomic groups outside model systems. Ants are a good system to understand the physiological mechanisms to cope with heat stress because they successfully diversified into thermally stressful environments. 
+
+For my dissertation, **I first identified and characterized the functional diversity of heat shock proteins (Hsps) in ants**. I surveyed Hsp orthologues from published ant genomes to test for selection and to reconstruct their evolutionary history. Within Hymenoptera, ants utilize unique sets of Hsps for the CSR. Stabilizing selection was the prevailing force among Hsp orthologues, suggesting Hsps harbor conserved protein activity. Meanwhile, regulatory regions (promoter) governing transcriptional up-regulation diversified: species differ in the number, position, and location of heat shock elements (HSEs). Therefore, modulating the tempo of up-regulation may be critical for adaptive variation in the CSR. 
+
+Next, I hypothesized that ant species regulate critical stress proteins (Hsps) to match their local thermal environment. I collected woodland ant species within the genus *Aphaenogaster* throughout the Eastern United States and reared colonies in a common garden laboratory experiment to determine **1) the relationship between local thermal evironments and heat tolerances to temperature** and **2) whether the variation in heat tolerances related to Hsp gene expression**. Although I found no evidence for clinal variation in heat tolerance (Critical thermal maxima, CTmax), I found evidence of for phylogenetic and ecological correlates with CTmax: more heat tolerant ants species lived in open habitats (shrub-oak and long-leaf pine savannah) and less heat tolerance lived in closed habitats (Mixed-hardwood and deciduous forests). These adaptive shifts corresponded with the timing of induction such that more thermally tolerant ant species residing in open habitats delayed their Hsp expression, suggesting their proteins were more thermally stable.
+
+Finally, **I investigated how temperature is likely to interact with other environmental stressors such as water and nutrient availability that will impact thermal tolerance**. I determined the influence of dehydration and nutrition stress on heat tolerance of individual ants. Ants that were initially starved were much less thermally tolerant than controls and ants that were initially desiccated. Because ants are likely to experience similar combination of stressors in the wild, heat tolerance may be severely overestimated in single factor experiments. Therefore, realistic forecasting models need to consider multiple of environmental stressors. 
 

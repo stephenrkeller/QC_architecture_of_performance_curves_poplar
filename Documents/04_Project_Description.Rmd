@@ -4,50 +4,99 @@ header-includes:
    - \setlength\parindent{24pt}\setlength{\parskip}{0.0pt plus 1.0pt}
 output: 
   pdf_document:
-    fig_caption: yes
     latex_engine: xelatex
 mainfont: Times New Roman
-fontsize: 14
+fontsize: 16
 ---
-\fontsize{12}{12}
+
+\large
+\makeatletter
+\newcommand\iraggedright{%
+  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+  \leftskip\z@skip}
+\makeatother
+\iraggedright
+
 
 \begin{raggedleft}
-\textbf{Introduction/Motivation}  \newline
+\textbf{Introduction} 
 \end{raggedleft}   
 
+Adaptation to historical climate conditions often *(constrains plant growth and productivity from their optimum under)* current *(climates)* (Etterson & Shaw 2001; Weins 2004). *(Constraints due to adaptation to historical environments also represent an immediate and pressing challenge for maintaining the productivity of natural and agricultural ecosystems under )* novel environments, such as those brought about by climate change (IPCC 2007). **The degree to which *(different genotypes)* can alter their functional traits *(during development in response to environmental stimuli)*, known as *(genotype x environment interaction, or GxE)*, *(is an important determinant of plant growth and fitness exposed to variable environments)*. *(The maintenance of GxE may be)* especially important *(for the productivitt of)* long-lived species** that experience significant environmental variation within their lifetimes (Gilchrist 1995). Typically, *(GxE)* is reduced during climate adaptation such that physiological mechanisms that were once induced become fixed (Waddington 1953; Pigliucci et al. 2006), resulting in trade-offs between historical and contemporary environments that may indicate susceptibility to climate change. However, changes in the environment may interact in unique ways with genotypes such that trade-offs lessen or may even completely reversed (Messina & Fry 2003), resulting in resiliency to environmental perturbations. Yet, **we know very little about the complex dynamics of trade-offs *(in plant growth across environmental gradients under realistic field conditions)*** because *(most)* experimental approaches (Wu et al. 1992; Wu & Stettler 1997; Zalesney et al. 2005) do not *(test for genetic variability in functional responses across a continuous range of test site environments, but rather focus on a small number of discrete test site environments,)*  which may severely underestimate the *(importance of GxE to sustaining plant productivity)* (Stinchcombe et al. 2012). 
+
+Genotype by environment interactions that produce phenotypes (Yamada 1962) often manifest in non-linear responses that can be represented as a mathmetical expression known as a *function-valued trait* (Gomulkiewicz & Kirkpatrick 1992; Kingsolver et al. 2001). **Rigourously quantifying and visualizing functional-valued traits offers insights on the nature of trade-offs** *(that can be used for selection of the best matched genotypes for a particular environment, or those that are most tolerant to a range of expected environemtns)*. For example, genotypes may perform highest *(along)* specific windows of the environmental gradient (*short-long trade-off*) or perform *(better)* over wider or shorter windows (*generalist-specialist trade-off*; Kingsolver et al. 2015). Unfortunately, we have very little understanding for how complex environmental axes modulate trade-offs of function-valued traits, both at the phenotypic and genomic levels, which critically impairs *(progress in developing genomic-enabled)* predictions of species responses to climate change (Gienapp et al. 2008; Fitzpatrick & Keller 2014).
+
+*(It is well established that )* shifting climate *(will)* negatively impact *(the productivity and resiliency of forest trees, both in natural forest ecosystems and in agroforestry plantations)*. **Poplar (genus *Populus*), is a DOE flagship model system for forest tree genomics and biomass production** that provides key ecosystem services (Schimel et al. 1998) and *(genomic and phenomic resources are being developed for woody biomass production and lignocellulosic biofuels)* (Stanton et al. 2010). *(The accumulation of genomic and physiological studies on poplar's adaptive responses to climate also makes it)* an exemplary model to understand how historical selection regimes have shaped *(genetic variation in GxE, and how the suite of responses exhibited by extant genotypes)* can result in either resiliency or susceptibility to future climate change. In particular, *(across the wide-ranging distribution of)* balsam poplar (*Populus basamifera*), *(genotypes)* display strong signatures of historical selection on *(biomass)* productivity a*(and seasonal patterns of dormancy regulation)* (Kellet et al. 2011), *(show)* genetically-based clines in *(allelic variation at circardian clock and associated flowering time pathway genes knwon to underly phenology)* (Keller et al. 2012), and *(show high heritability and genotype-phenotype associations for phenology and productivity that vary across multiple common gardens, indicating presence of GxE)* (Olson et al. 2013; Soolanayakanahally et al. 2015; Keller et al., unpublished). **However, growing season length (GSL) cues used by trees to adaptively modulate the timing and rate of growth to permissive conditions are driven by both photoperiod and temperature signals, which are typically confounded during comparisons between a small number of common gardens placed in northern vs. southern locations (e.g., Olson et al. 2013) and future experimental work needs to disentangle these cues**. *(In long-lived plants such as forest trees, climates are likely to warm within the lifetimes of individual genotypes, which means understanding GxE responses to temperature-driven GSL is more important in the short-term than addressing how dispersal into new photoperiod regimes will affect adaptation to climate change.)* Furthermore, *(climate change will bring complex shifts in environment at local sites,)* such as more variable precipitation regimes (Mueller & Seneviratne 2012), *(and it is currently not known how tolerance or avoidance of drought stress )* can rescue or reinforce trade-offs in GSL, especially since soil moisture is a critical parameter of growth for poplars (Larchevêque et al. 2011). *(I MOVED THE LAST SENTENCE ABOUT POPLAR CLONALITY TO METHODS, SINCE IT'S MORE ABOUT THE APPLICABILITY OF THE STUDY SYSTEM TO THE PROPOSED DESIGN THAT IT IS ABOUT THE QUESTION YOU'RE ASKING)*\newline
+
 \begin{raggedleft}
-\textbf{Research Objectives}  \newline
+\textbf{Research Objectives}
 \end{raggedleft}   
+**My overall goal is to determine the quantitative genetic architecture of trade offs in growth, imagined as a function-valued trait, across 2 continuous environmental axes: GSL and soil moisture**. Genetic constraints will be determined with two interdisciplinary approaches: **1)** Assess the shifts in the genetic architecture in growth performance both at the phenotypic and genomic levels and **2)** Quantify any changes in the effects of previously identified quantitative loci associated with shifts in the genetic architecture and predict performance broadly to natural populations.
+
 
 ![](Figures_related/20160819_sampling_map_common_gardens.pdf)     
-Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.
 
-
-![](Figures_related/2016_perf_curves.pdf)
-Figure 2. Predictions for the outcome of common garden experiment which vary in growing season length.
-
-
+>**Figure 1. 11 sites vary in their growing season length (Julian Days) with very similar climate in New York and Vermont.** 
 
 \begin{raggedleft}
-\textbf{Training Objectives}  \newline
+\textit{Experimental Approach}
+\end{raggedleft}  
+Poplar readily propogates clonally *(from vegetative cuttings)*, and in fact, clonal selection is the principal mode used by poplar breeders *(for making gains in improved germplasm)* (Stanton et al. 2010). *(This attribute of poplar also makes it extremely amenable to quantitative genetics and genomics techniques to quantify function-valued traits and improve predictions of productvity across variable test sites and future climates)* (Stanton et al. 2010; Fitzpatrick & Keller 2014). We will use a quantitative genetic clonal design to establish 10 common gardens that span a realized GSL gradient that varys among test sites by up to 2.5 months (Figure 1). *(This network of garden sites is all within local driving distance of UVM, enabling frequent data colleciton and maintenance while also controlling for photoperiod effects on plant growth responses by maintaining a near-uniform latitude.)* We will select 50 source genotypes from regions spanning *(a broad)* climate gradient of the native range, and *(for)* which *(we)* have pre-existing *(genomic and phenomic data used to characterize each genotype's profile of local adaptation to its source climate (Keller et al., unpublished).)*  Prior to planting, genotypes will be clonally propogated *(from dormant cuttings in 4 L pots)* utilizing the University of Vermont's greenhouse to initially control for growth conditions and ensure enough material for replication.  Genotypes *(will be planted into each common garden during spring at 1.5 meter spacing by sinking pots directly into the ground. Competition will be controlled for using landscape fabric around test plants to prevent weed growth. To test for interactive effects of temperature and drought stress, we will vary soil moisture availability in the potting media at 2 levels: control (using a peat-based potting media, Pro-Mix BX) or low soil moisture (using coarse sand as the potting medium). At each garden, we will plant 4 clonal replicates per genotype under control conditions, and an additional 4 replicates under the low moisture treatment.)*  **In total, the *(network of gardens)* will consist of ~4,000 poplar trees**. *(To aid in the establishment of this ambitious planting, and as part of the broader impacts of our work, we will establish the network of gardens )* with the involvement of **high school students, undergraduate researchers, and local botany groups (New England Wild Flower Society and Burlington Garden Club)**.
+
+*(We will quantify functional-valued responses at the level of whole-plant, leaf physiology, and transcriptome-wide gene expression)*. We will measure mRNA with next-generation sequencing. Using traditional quantitative genetic methods, we can identify the trade-offs in function-valued growth and among all the mRNAs. Furthermore, we will assess whether these trade offs correspond to previously identified genomic regions (quantitative trait loci). 
+
+**ANDREW -- MUCH MORE DETAIL NEEDED IN THE PARAGRAPH ABOVE ON PHENOTYPING AND RNASEQ. TRUTH IS, IN ADDITION TO A GOOD QUESTION, THIS IS THE PART THE REVIEWERS WILL BE LOOKING TO GET EXCITED ABOUT. WHAT TRAITS ARE YOU GOING TO MEASURE: WHEN, WHERE AND HOW? I SUGGEST: HEIGHT INCREMENT AT THE END OF SEASON (SEPT), LEAF %C, %N, C:N RATIO, WATER-USE EFFICIENCY, AND NITROGEN USE EFFICINCY USING STABLE ISOTOPES (13C AND 15N) ON 3-5 LEAVES ONCE PER SEASON (IN JULY/AUGUST). PROBABLY ALSO TIME COLLECTION OF TISSUES FOR RNASEQ AT THE SAME TIME -- EVEN USE THE SAME LEAVES AS ISOTOPE SAMPLING. LASTLY, WE HARVEST ALL PLANTS AT END AND DETERMINE TOTAL BIOMASS.)* 
+
+\begin{raggedleft}
+\textit{Anticipated Major Outcomes}
+\end{raggedleft}  
+When reared along a GSL gradient, genotypes may exhibit no constraints at all in growth (Figure 2 A,D), or two types of trade-offs in growth: shorter-longer (Figure 2 B,E), or generalist-specialist (Figure 2 C,F). Elevated soil moisture may either **lessen trade-offs** (i.e. slope in shorter-longer variation becomes less steep, Figure 3 A), **shift between trade-offs** (shorter-longer to generalist-specialist, Figure 3 B), or even **reverse trade-offs** (i.e. shorter-longer variation at one moisture level and generalist-specialist, Figure 3 C). \newline
+
+![](Figures_related/perf_curves.pdf)    
+
+ >**Figure 2. Predicted outcomes for growth performance (function-valued trait) along a growing season length (GSL) environmental gradient.** The top panels (**A,B,C**) illustrates different types of performance curves (growth) as a function of GSL for mock clones. The accompanying bottom panels  (**D,E,F**)illustrates the genetic correlation (loadings from multivariate analyses) between growth and GSL using quantitative genetics techniques (Kingsolver 2001; Kingsolver et al. 2015). If **overall variation in growth is not constrained** (**A**), then growth is genetically correlated among all GSL conditions (**B**). However, if there is a **trade-offs between shorter-longer GSL** (**C**), then there will be opposing correlational structuring of performance among growing length condtions (**D**). Lastly, if there is **generalist-specialist trade-offs** (**E**), then performance at intermediate GSL are negatively correlated with extreme GSL (**F**).   
+ 
+\begin{raggedleft}
+\textit{Significance}
 \end{raggedleft}
+The proposed work will illuminate the nature of trade-offs for two critical environmental axes (GSL and water availability). **Determining whether trade-offs can be alleviaTed or reversed has significant applied value** because poplar *(breeders)* may enact management practices to maximize yield, particularly for an ecologically and economically important species within poplar, a DOE flagship genus. If we observe **overall variation** in growth, then the top cultivar operates the highest over many *(different GSLs)* (Figure 2 A,D). However, if there are constraints between **shorter-longer GSL**, then only particular cultivars should be chosen *(for growth at a given test site)* (Figure 2 B,E). Finally, **generalist-specialist GSL** would indicate that specific *(test sites)* should utilize a certain cultivar (Figure 2 C,F). \newline
 
+*(I THINK IT WOULD BE A GOOD IDEA TO INCLUDE SOME MORE INFO ABOUT HOW YOU PLAN TO ANALYZE THE DATA. NEED DETAILS ON THE RNASEQ ANALYSIS, AND THE STATISTICAL MODELS YOU'LL USE TO CONDUCT THE KINGSOLVER FUNCTION-VALUE APPROACH. I ALSO WOULD ADVOCATE FOR USING GENOMIC PREDICTION USING GRADIENT FORESTS ON THE 50 GENOTYPES YOU USE COUPLED WITH THE CLIMATE DATA FOR YOUR CHOSEN PLANTING SITES. THIS WOULD GENERATE A GENOMICALLY AND CLIMATICALLY INFORMATED PREDICTION OF PERFORMANCE FOR EACH TEST SITE, THAT YOU COULD THEN RELATE TO YOUR OBSERVED DATA.)*
 
+![](Figures_related/GSL_pred_trades.pdf)   
+
+>**Figure 3. Three critical anticipated results from proposed acitivties illustrating the interaction between GSL and soil moisture on growth**. Trade offs may be lessened (**A**), shift between them (**B**), or become reversed (**C**) under high and low soil moisture treatments. 
 
 \begin{raggedleft}
-\textbf{Career Development}  \newline
-\end{raggedleft}   
-
-\begin{raggedleft}
-\textbf{Choice of Sponsoring Scientists}  \newline
+\textbf{Training Objectives} 
 \end{raggedleft}
+I have **3 general training objectives**: 1) Establish a solid foundation in ecological genomics and apply these principles to a new system plant systems; 2) Acquire more statistical and bioinformatic tools to uncover complex biological patterns associated with genomic and phenotypic datasets; 3) Effectively communicate science to diverse backgrounds.    
 
+**Goal 1**: A foundation in the natural history of balsam poplar and population genetic theory will be absolutely critical for carrying out the proposed work. To achieve this goal, I will aide in ongoing common gardens in Burlington, VT and Indian Head, Canada, which will allow me to become familiar with poplar and interact with experts in the field. I will lead journal clubs specific to population genetic papers in order to solidify my scientific purview. After all, I learn best by talking and doing science.  
+
+**Goal 2**: Although I have worked with next-generation genomic data in my dissertation, there is much more to learn. In particular I will need to create genotype-phenotype maps, project genomic predictions, and manage large datasets. To aide in this goal, I will consult and meet with my post-doctoral advisor on a weekly basis when data are ready to be analyzed.
+
+**Goal 3**: Because science will solve pressing issues that we face today, it is my firm belief that science should be shared to all people from different walks of life. I will develop undergraduate projects and offer one on one mentoring. Next, I will actively include local high school students in their 2 week **Year End Semester (YES) program** and  **members from the New England Wild Flower Society (http://www.newenglandwild.org/) and Burlington Garden Club (http://www.bgcvt.org/)** into our common garden in order to cultivate citizen scientists. I will communicate my findings to poplar farmers. As a member of the **Burlington Data Science Meetup (http://www.meetup.com/Burlington-Data-Scientists/)**, I will host a **Hackathon** where local data scientists from diverse professions may propose novel methods for uncovering biological patterns. \newline
 
 \begin{raggedleft}
-\textbf{Broader Impacts and Timetable}  \newline
+\textbf{Career Development}  
 \end{raggedleft}   
+Funding will facilitate my long term goal: **discover and uncover novel patterns in biological processes, whether as an academic, consultant, or data scientist**. Today's problems require handling big-data and synthesis between fields and I am would be thrilled to be given the opportunity to develop solutions. Funding for the proposed work will allow me create explicit links between two fields: quantitative genetics and the molecular bases of function-valued traits. To create these links, I will further develop my statistical and informatic skills to analyze large datasets generated from next-generation sequencing.    
+Although the research theme is similar, the proposed work is substantially different from my dissertation. My dissertation focused on how molecular level processes explains diversity at the species-level and utilizing this information to predict ant species responses to climate change. However, species comprise of many populations, whose responses may vary themselves. Therefore, **as an NSF post-doctoral fellow, I hope to approach climate change adaptation at the population-level using a completely different system from my dissertation work (ants), such as balsam poplar**. \newline
 
+\begin{raggedleft}
+\textbf{Choice of Sponsoring Scientists}
+\end{raggedleft}
+In collaboration with **Dr. Stephen Keller in the plant biology department** at the University of Vermont, I will be able to explore my ideas in bridging links between quantitative genetics and the genomic basis of function-valued traits on an economically and ecologically important cottonwood tree species (balsam poplar). Trees do not move, unlike the ants I am accustomed to, and are amenable to quantitative genetic analyses because they clonally propogate. Dr. Keller has been working on balsam poplar for 10 years and has established an immense amount of genomic resources through funding from the **National Plant Genome Initiative (NPGI)**. Over the span of his career, Dr. Keller has published **27 peer-reviewed manuscripts**, utilizing diverse approaches such as field surveys, lab work, and bioinformatics to answer pressing issues that we face today. This high productivity and track record, which I strive to emulate, identified significant climate adaptation for phenology in balsam poplar with strong signatures of selection for loci relating to growth and phenology and integrated these findings into climate projection models. Therefore, **Dr. Keller has established himself as a pioneer and leader in climate change biology**.\newline
 
+\begin{raggedleft}
+\textbf{Broader Impacts and Timetable} 
+\end{raggedleft}   
+The proposed activities will achieve greater understanding of how species will respond to climate change on a completely different system (plants) from my dissertation work (ants) under the guidance and expertise of Dr. Stephen Keller and with the involvement of diverse citizens. Since planting thousands of poplar is an enormous task, I will utilize local high schoolers, undergraduate researchers and members from local botanical groups (New England Wild Flower Society and Burlington Garden Club,Table 1, #2, #3) to help establish common garden plots (Table 1, #1, 2017) and participate in research activities (Table 1, #1 and #2 2018-2020). I will leverage **Burlington High School's 2 week Year End Semester (YES) program (Table 1, #2, 2017-2020)** and recruit students to aide in phenotyping plants. Students from diverse backgrounds will be particularly represented because Burlington is a target site for refugees from African countries (~20), Nepal, and Vietnam and will interact with undergraduate researchers and citizen scientists. For undergraduate researchers, I will develop projects through individual mentorship (Table 1, #3, 2018-2019) and translate their findings into first author publications in open access journals (Table 1, #3 and #7 2020). Since the University of Vermont strongly supports undergraduate investigators to showcase their research, I will bring them to conferences so they can present posters and/or oral presentations (Table 1, #3 and #6, 2019-2020).
+
+Data collection will be streamlined into transparent and reproducible workflows on Github (https://github.com/adnguyen, Table 1, #4, 2017-2020), enabling effective dessimination of proposed activities within the YES program, to other scientists, and even poplar farmers (Table 1, #2, 2020). Specifically,  **I will create an educational interactive web application (Shiny App, Table 1, #2, 2018)** to illustrate how different genotypes' growth performances can be represented by mathmatical functions. **As a member of the Burlignton Data Science Meetup group, I will also host a hackathon (Table 1, #2, 2019)** so that local data scientists are exposed to statistical approaches in biological systems. In particular, I will propose the problem of analyzing thousands of transcripts, collected in 2018 (Table 1, #5), where each transcript represents a function-valued traits. The outcomes of the hackathon will assist my genomic analyses and predictions  (Table 1, #5, 2019-2020). \newline
+
+\small
 ```{r time table,floating=FALSE,echo=FALSE,results='asis'}
 b<-read.csv("Figures_related/Time_table.csv")
 names(b)<-c("Tasks and Goals","2017","2018","2019","2020")
